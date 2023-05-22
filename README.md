@@ -2,9 +2,9 @@
 
 Demonstration site combining geolocation search with attribute/faceted search.
 
-The end user submits an address to receive a list of agencies. The results combine brick and mortar agencies close to the address with state and national agencies.
+The end user submits an address to receive a list of addresses. The results combine forest owners, timber wholsalers, buyers brokers in the vicinity.
 
-[Live demo](https://agency-finder.vercel.app/)
+[Live demo](https://timber-finder.vercel.app/)
 
 Under the covers, the application use the Google Places API to retrieve geolocation data for the address. When the user submits the form, the application uses
 the instantsearch.js library to perform an `aroundLatLng` search against the geocode data as well as a regular text search against the address `state`

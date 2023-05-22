@@ -162,7 +162,7 @@ class AgencyFinderForm extends React.Component {
               checked={this.state.preferred}
               onChange={this.handleCheckboxChange}  
             />
-            <span style={{ marginLeft: 8 }}>Preferred Agencies</span>
+            <span style={{ marginLeft: 8 }}>Preferred Results</span>
           </label>
         </form>
         <button onClick={this.handleSubmit}>Search</button>

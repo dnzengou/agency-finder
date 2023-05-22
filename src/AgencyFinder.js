@@ -31,8 +31,8 @@ class AgencyFinder extends React.Component {
   render() {
     return (
       <div>
-        <h1>Find an Agency</h1>
-        <p className='instructions'>🔍 Search for your address to find the closest agencies.</p>
+        <h1>Find Timber 🌳</h1>
+        <p className='instructions'>🔍 Search for your address to find the closest forest owners.</p>
         <div className='left-panel'>
           <Wrapper apiKey={process.env.REACT_APP_GOOGLE_API_KEY} render={this.renderForm} libraries={["places"]} />
         </div>
